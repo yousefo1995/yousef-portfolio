@@ -1,0 +1,183 @@
+body{
+    margin: 0 10%;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ED9A00;
+    border: 4px solid #2A2A2C;
+    font-family: 'Changa', sans-serif;
+   
+}
+ 
+#main{
+    display: flex; 
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-between;
+    background-color: white;
+}
+
+#profile{
+    position: absolute;
+    top: 30px;
+    left: 15%;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+}
+
+#profile img{
+    width: 200px;
+    border: 15px solid #2A2A2C;
+    border-radius: 50%;
+    position: relative;
+    left: 20px;
+}
+
+#name{
+    align-self: center;
+    padding-left: 100px;
+    background-color: #ED9A00;
+    flex-grow: 1;
+    height: 100px;
+    font-size: large;
+    text-align: left;
+    border-right: 4px solid #2A2A2C;
+}
+#name h6{
+    margin-top: -20px;
+}
+#name h1{
+    margin-bottom: 0;
+}
+
+
+#left-side{
+    padding-top: 270px;
+    width: 60%;
+    background-color: white;
+    font-size: 13pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.left-h{
+    background-color: #ED9A00;
+   padding: 5px 0;
+   margin: 20px 0;
+   text-align: left;
+   padding-left: 30px;
+}
+#about-me p, #work-exp p{
+    text-align: left;
+    padding-left: 44px;
+}
+
+#left-side ul{
+    list-style: none;
+    text-align: left;
+    
+}
+#left-side li{
+   display: flex;
+   align-items: baseline;
+}
+#left-side li i{
+    color: #ED9A00;
+    margin-right: 10px;
+    padding: 4px;
+}
+#projects a{
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    font-style: italic;
+}
+#projects a:hover{
+    color: #ED9A00;
+}
+#down{
+    background-color: #ED9A00;
+    width: 130%;
+    height: 30px;
+}
+
+#right-side{
+    padding-top: 180px;
+    width: 30%;
+    background-color: #2A2A2C;
+    color: white;
+    font-size: 12pt;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#contact-inf h3, #skills h3{
+    border: 3px solid #ED9A00;
+    width: 70%;
+    margin-left: 15%;
+    height: 30px;
+    margin-top: 50px;
+}
+
+#contact-inf ul{
+    list-style: none;
+    text-align: left;
+
+}
+#contact-inf ul li{
+    padding: 1px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#contact-inf i{
+color: #ED9A00;
+font-size:20pt;
+margin-right: 15px;
+
+}
+
+#contact-inf a{
+    text-decoration: none;
+    font-weight: 900;
+    color: rgba(245, 245, 245, 0.896);
+    font-style: italic;
+}
+#contact-inf a:hover{
+    color: #ED9A00;
+}
+#skills h4{
+    margin-bottom: 10px;
+   
+}
+
+.bar{
+    width: 80%;
+    margin-left: 10%;
+    height: 20px;
+    background-color: #2A2A2C;
+    border: 1px solid #ED9A00;
+}
+.level{
+    background-color: #ED9A00;
+    height: 20px;
+}
+
+#right-side hr{
+    width: 60%;
+    margin-top: 24px;
+}
+#social i{
+    font-size: 30pt;
+    color: #ED9A00;
+    padding: 10px;
+}
+
+
+
+
+
+
+
